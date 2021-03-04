@@ -1,0 +1,68 @@
+ body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    .dd{
+          background-color: #666;
+          text-align: center;
+          font-size: 35px;
+          padding: 30px;
+          color: white;
+        }
+
+    .certificate{
+          float: left;
+          width: 20%;
+          height: 500px; /* only for demonstration, should be removed */
+         background: #ccc;
+          padding: 20px;
+        }
+
+        .institution{
+              float: left;
+              width: 20%;
+              height: 240px; /* only for demonstration, should be removed */
+             background: #ccc;
+              padding: 20px;
+
+                }
+
+    .other_institution{
+          float: left;
+            width: 20%;
+            height: 145px; /* only for demonstration, should be removed */
+           background: #ccc;
+            padding: 20px;
+
+        }
+
+        tr{
+            font-size:20px;
+        }
+
+     /* Style the footer */
+        footer {
+          background-color: #777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+
+        article {
+              float: left;
+              padding: 20px;
+              width: 70%;
+              text: center
+              background-color: #f1f1f1;
+              height: 0px;
+              /* only for demonstration, should be removed */
+            }
+
+            /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+          margin-bottom:30px;
+        }
