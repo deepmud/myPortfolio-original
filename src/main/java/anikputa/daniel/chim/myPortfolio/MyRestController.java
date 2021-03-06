@@ -1,10 +1,12 @@
 package anikputa.daniel.chim.myPortfolio;
 
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
+@ComponentScan
 @RestController()
 public class MyRestController {
     @GetMapping("/")
